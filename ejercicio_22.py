@@ -13,7 +13,7 @@ print("Los número impares menores a", entero, "son:")
 
 for i in range(1, entero):
     if i % 2 != 0:          # si el resto de la division es diferente de 0, osea impar, va a imprimirse
-        print(i," ")
+        print(i,end=" ")
 
 
 
